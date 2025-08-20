@@ -1,0 +1,6 @@
+[submodule "fw/moteus"]
+	path = fw/moteus
+	url = https://github.com/oystub/moteus.git
+[submodule "fw/mjlib"]
+	path = fw/mjlib
+	url = https://github.com/oystub/mjlib.git
