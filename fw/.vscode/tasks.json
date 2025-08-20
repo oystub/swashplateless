@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build moteus",
+      "type": "shell",
+      "command": "bash",
+      "args": [
+        "-c",
+        "./tools/bazel build --config=target //:target"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/moteus"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
